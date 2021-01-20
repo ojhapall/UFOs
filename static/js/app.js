@@ -46,11 +46,6 @@ filters = {};
   let shape = d3.select("#shape").property("value");
 
   // 4c. Save the id of the filter that was changed as a variable.
-  // filters.datetime = date;
-  // filters.city = city;
-  // filters.state = state;
-  // filters.country = country;
-  // filters.shape = shape;
   
   // 5. If a filter value was entered then add that filterId and value
   // to the filters list. Otherwise, clear that filter from the filters object.

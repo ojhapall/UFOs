@@ -17,7 +17,7 @@ function buildTable(data) {
         // Loop through each field in the dataRow and add
         // each value as a table cell (td)
         Object.values(dataRow).forEach((val) => {
-            let cell = row.append("td");
+            let cell = row.append9("td");
             cell.text(val);
             }
         );
